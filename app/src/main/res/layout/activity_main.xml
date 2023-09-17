@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="16dp"
+        android:hint="Enter first number"
+        android:inputType="numberDecimal"
+        android:scaleX="1"
+        android:scaleY="1" />
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_margin="16dp"
+        android:hint="Enter second number"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:id="@+id/calculatePiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Calculate Pi" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="380dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:text="Result: "
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        />
+
+</LinearLayout>
